@@ -1,9 +1,14 @@
-Transmission daemon on Alpine Linux
-===================================
-A Fast, Easy, and Free BitTorrent Client
+Transmission daemon
+---
 
-[![](https://images.microbadger.com/badges/image/magnaz/transmission.svg)](https://microbadger.com/images/magnaz/transmission)
+A Fast, Easy, and Free BitTorrent Client as Docker image based on Alpine Linux.
 
-Official website: http://www.transmissionbt.com
+Official website: <http://www.transmissionbt.com>  
+GitHub repository: <https://github.com/magna-z/docker-transmission> ![](https://img.shields.io/github/stars/magna-z/docker-transmission) ![](https://img.shields.io/github/forks/magna-z/docker-transmission)  
+DockerHub image: <https://hub.docker.com/r/magnaz/transmission> ![](https://img.shields.io/docker/stars/magnaz/transmission) ![](https://img.shields.io/docker/pulls/magnaz/transmission)
 
-Blocklists url: http://john.bitsurge.net/public/biglist.p2p.gz
+Blocklists on GitHub gists: <https://gist.github.com/shmup/29566c5268569069c256>
+
+## Available tags:
+#### 4.X
+- **4.0.3**, **latest** ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.3)
