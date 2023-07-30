@@ -1,4 +1,4 @@
-Transmission daemon
+Transmission
 ---
 
 A Fast, Easy, and Free BitTorrent Client as Docker image based on Alpine Linux.
@@ -9,6 +9,11 @@ DockerHub image: <https://hub.docker.com/r/magnaz/transmission> ![](https://img.
 
 Blocklists on GitHub gists: <https://gist.github.com/shmup/29566c5268569069c256>
 
-## Available tags:
+### Available platforms
+- **linux/amd64**
+- **linux/arm64**
+- **linux/arm/v7**
+
+### Available tags
 #### 4.X
 - **4.0.3**, **latest** ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.3)
