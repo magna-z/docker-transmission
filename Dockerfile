@@ -1,9 +1,8 @@
-FROM alpine:3.18
+FROM alpine:3.21.3
 
-ENV TRANSMISSION_VERSION=4.0.4 \
-	  TRANSMISSION_ALPINE_BUILD=r0 \
-    TRANSMISSION_HOME=/var/lib/transmission
+ENV TRANSMISSION_HOME=/var/lib/transmission \
+    ALPINE_TRANSMISSION_DAEMON_VERSION=4.0.6-r0
 
-RUN apk add --no-cache --no-progress transmission-daemon==${TRANSMISSION_VERSION}-${TRANSMISSION_ALPINE_BUILD}
+RUN apk add --no-cache --no-progress transmission-daemon==${ALPINE_TRANSMISSION_DAEMON_VERSION}
 
 ENTRYPOINT ["transmission-daemon", "--foreground"]
