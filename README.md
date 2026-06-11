@@ -22,6 +22,7 @@ Blocklists on GitHub gists: <https://gist.github.com/shmup/29566c5268569069c256>
 
 ### Available tags
 #### 4.X
-- **v4.0.6**,  **4.0.6**, **latest** | ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.6)
+- **v4.1.2**,  **4.1.2**, **latest** | ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.1.2)
+- **v4.0.6**,  **4.0.6** | ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.6)
 - **v4.0.4**,  **4.0.4** | ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.4)
 - **v4.0.3**, **4.0.3** | ![](https://img.shields.io/docker/image-size/magnaz/transmission/4.0.3)
